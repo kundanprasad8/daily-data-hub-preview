@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Data Hub — Live India Data: Gold Rates, Crypto, AQI, Weather, Mutual Funds</title>
+<meta name="description" content="Daily Data Hub — India's free live data portal. Today's gold rates, silver rates, crypto prices, AQI, weather, mutual fund NAVs. Updated daily.">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#f5f7fa;color:#1a1a2e}
+header{background:linear-gradient(135deg,#12307a,#1e4bb8);color:#fff;padding:2rem 1rem;text-align:center}
+header h1{font-size:2rem;margin-bottom:.5rem}
+header p{opacity:.9;font-size:1.1rem}
+.container{max-width:1100px;margin:0 auto;padding:2rem 1rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:1.5rem}
+.card{background:#fff;border-radius:12px;padding:1.8rem;box-shadow:0 2px 12px rgba(0,0,0,.08);transition:transform .2s;text-decoration:none;color:inherit;display:block}
+.card:hover{transform:translateY(-4px);box-shadow:0 8px 24px rgba(0,0,0,.12)}
+.card .icon{font-size:2.5rem;margin-bottom:.8rem}
+.card h2{font-size:1.3rem;color:#12307a;margin-bottom:.5rem}
+.card p{color:#555;font-size:.95rem;line-height:1.5}
+.card .count{display:inline-block;margin-top:.8rem;background:#e8eefc;color:#12307a;padding:.3rem .8rem;border-radius:20px;font-size:.85rem;font-weight:600}
+.badge{display:inline-block;background:#ff6b35;color:#fff;padding:.2rem .7rem;border-radius:12px;font-size:.75rem;font-weight:700;margin-left:.5rem;vertical-align:middle}
+footer{text-align:center;padding:2rem;color:#888;font-size:.9rem}
+.live{display:inline-block;width:10px;height:10px;background:#22c55e;border-radius:50%;margin-right:6px;animation:pulse 2s infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+</style>
+</head>
+<body>
+<header>
+<h1><span class="live"></span>Daily Data Hub</h1>
+<p>India's Free Live Data Portal — Updated Daily</p>
+</header>
+<div class="container">
+<h2 style="margin-bottom:.5rem">📊 Live Topics <span class="badge">PREVIEW</span></h2>
+<p style="color:#666;margin-bottom:1rem">5 topics live now • 55 more coming this week</p>
+<div class="grid">
+<a class="card" href="gold-rate/">
+<div class="icon">🪙</div>
+<h2>Gold & Silver Rates</h2>
+<p>Today's IBJA gold and silver rates for 81 Indian cities. 24K, 22K, 18K prices with making charges.</p>
+<span class="count">164 pages</span>
+</a>
+<a class="card" href="crypto/">
+<div class="icon">₿</div>
+<h2>Crypto Prices</h2>
+<p>Live cryptocurrency prices in INR. Bitcoin, Ethereum and 30 top coins with market analysis.</p>
+<span class="count">31 pages</span>
+</a>
+<a class="card" href="aqi/">
+<div class="icon">🌫️</div>
+<h2>Air Quality (AQI)</h2>
+<p>Today's AQI for 146 Indian cities. Health advice, pollution sources, city comparisons.</p>
+<span class="count">147 pages</span>
+</a>
+<a class="card" href="weather/">
+<div class="icon">🌤️</div>
+<h2>Weather</h2>
+<p>Today's weather for 290 Indian cities. Temperature, rain, humidity, clothing advice.</p>
+<span class="count">291 pages</span>
+</a>
+<a class="card" href="mutual-funds/">
+<div class="icon">📈</div>
+<h2>Mutual Fund NAV</h2>
+<p>Daily NAV for 3,461 mutual fund schemes. SIP calculator, category analysis, direct vs regular.</p>
+<span class="count">3,461 pages</span>
+</a>
+<a class="card" href="alerts/">
+<div class="icon">🔔</div>
+<h2>Price Alerts</h2>
+<p>Get Telegram alerts when gold, crypto, or AQI crosses your target. Free forever.</p>
+<span class="count">4 pages</span>
+</a>
+</div>
+<h2 style="margin:2.5rem 0 1rem">🚀 Coming This Week</h2>
+<div class="grid">
+<div class="card"><div class="icon">📊</div><h2>Stock Market</h2><p>NSE gainers, losers, FII/DII data, IPO GMP</p></div>
+<div class="card"><div class="icon">🏛️</div><h2>Govt Schemes</h2><p>LPG, petrol, PPF rates, post office schemes</p></div>
+<div class="card"><div class="icon">📅</div><h2>Daily Life</h2><p>Panchang, Rahu Kaal, festivals, muhurat</p></div>
+<div class="card"><div class="icon">📍</div><h2>Directories</h2><p>Pincode, IFSC codes, RTO — 1,70,000 pages</p></div>
+</div>
+</div>
+<footer>
+<p>Daily Data Hub Preview • directresult.in • Data from official sources (IBJA, AMFI, CoinGecko, Open-Meteo)</p>
+</footer>
+</body>
+</html>
